@@ -1,5 +1,5 @@
 <div align=center>
-    <img src="mv.png" alt="MicroVim logo" height=300>
+    <img src="mv.png" alt="MicroVim logo" height=200>
 <hr>
   <h4>
     <a href="https://github.com/Zybyte85/MicroVim/#Installation">Installation</a>
