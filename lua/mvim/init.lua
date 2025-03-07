@@ -46,3 +46,6 @@ require("which-key").setup()
 
 -- Gitsigns
 require('gitsigns').setup()
+
+-- Grug
+require('grug-far').setup()

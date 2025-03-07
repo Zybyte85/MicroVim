@@ -32,5 +32,8 @@ return {
     		"nvim-telescope/telescope.nvim", -- optional
         },
     config = true
+    },
+    {
+	"MagicDuck/grug-far.nvim"
     }
 }
