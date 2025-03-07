@@ -1,21 +1,15 @@
 return {
 	{
 		"folke/tokyonight.nvim",
-		lazy = false,
-		priority = 1000,
-		opts = {}
-	},
-	{
-		"lukas-reineke/indent-blankline.nvim",
-		main = "ibl",
-		---@module "ibl"
-		---@type ibl.config
-		opts = {},
+		lazy = true,
 	},
 	{
 		"folke/snacks.nvim",
 		---@type snacks.Config
 		opts = {
+		        indent = {
+		                enabled = true
+		        },
 			dashboard = {
 				preset = {
 					header = [[
