@@ -32,5 +32,11 @@
 - Git
 - A [Nerd font](https://www.nerdfonts.com/) such as Hack Nerd Font (optional)
 
-### Linux
+### Linux/MacOS
 1. Download the [latest release](https://github.com/Zybyte85/MicroVim/releases/latest)
+2. Extract it to ~/.config/nvim
+
+### Windows
+1. Download the [latest release](https://github.com/Zybyte85/MicroVim/releases/latest)
+2. Open `Run` and put Appdata
+3. Extract it to Local\nvim
