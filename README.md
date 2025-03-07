@@ -10,6 +10,9 @@
   </h4>
 </div>
 
+![mv1](https://github.com/user-attachments/assets/d59b7542-0a05-4d6f-9535-000d5aaf5ffc)
+![mv2](https://github.com/user-attachments/assets/001cc3dd-fea3-4674-b290-8a1126043a33)
+
 ### Features
 - 🧠 Full LSP support
 - 🔧 Easily add plugins and configure
