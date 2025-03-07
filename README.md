@@ -4,10 +4,7 @@
   <h4>
     <a href="https://github.com/Zybyte85/MicroVim/#Installation">Installation</a>
     ·
-    <a href="CONFIG">Configure</a>
-    ·
-    <a href="zybyte85.github.io/MicroVim">Website</a>
-    <br>
+    <a href="https://github.com/Zybyte85/MicroVim/#Configuration">Configure</a>
     <br>
     Simple, minimal, and extendable Neovim config
   </h4>
@@ -40,3 +37,7 @@
 1. Download the [latest release](https://github.com/Zybyte85/MicroVim/releases/latest)
 2. Open `Run` and put Appdata
 3. Extract it to Local\nvim
+
+## Configuration
+### Adding plugins
+You can add plugins the same way you would normally. Go to ~/.config/nvim/mvim/plugins and make the changes you want in the files there. If you are planning on doing this, I would suggest you fork this repository so you can keep your custom config as your own repository.
