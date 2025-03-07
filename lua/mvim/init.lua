@@ -1,5 +1,11 @@
 -- This is a file to initialize all the plugins and change settings if needed.
 
+-- Treesitter setup
+require("nvim-treesitter.configs").setup({
+    highlight = { enable = true },
+    indent = { enable = true }
+})
+
 -- Mason setup
 require("mason").setup()
 require("mason-lspconfig").setup()

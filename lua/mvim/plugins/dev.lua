@@ -2,12 +2,16 @@
 
 return {
     -- Highlighting
-    {"nvim-treesitter/nvim-treesitter"},
+    {
+    	"nvim-treesitter/nvim-treesitter",
+    	build = ":TSUpdate",
+    	event = "VeryLazy"
+    },
     -- LSP
     {
-	    "neovim/nvim-lspconfig",
-        "williamboman/mason.nvim",
-	    "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig",
+	"williamboman/mason.nvim",
+	"williamboman/mason-lspconfig.nvim",
     },
     -- Completion
     {
