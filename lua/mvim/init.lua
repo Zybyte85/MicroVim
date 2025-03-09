@@ -49,3 +49,6 @@ require('gitsigns').setup()
 
 -- Grug
 require('grug-far').setup()
+
+-- Lualine
+require('lualine').setup()
