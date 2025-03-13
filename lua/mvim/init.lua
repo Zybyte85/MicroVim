@@ -1,4 +1,6 @@
 -- This is a file to initialize all the plugins and change settings if needed.
+require("config.options")
+require("config.mappings")
 
 -- Treesitter setup
 require("nvim-treesitter.configs").setup({
