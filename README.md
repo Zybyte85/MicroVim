@@ -10,8 +10,8 @@
   </h4>
 </div>
 
-![mv1](https://github.com/user-attachments/assets/d59b7542-0a05-4d6f-9535-000d5aaf5ffc)
-![mv2](https://github.com/user-attachments/assets/001cc3dd-fea3-4674-b290-8a1126043a33)
+![Screenshot 1](https://github.com/user-attachments/assets/1c4ed2d1-cd35-431a-b138-a601b9c82a60)
+![Screenshot 2](https://github.com/user-attachments/assets/b1062a0f-a644-4654-9985-b3537984a11d)
 
 ### Features
 - 🧠 Full LSP support
