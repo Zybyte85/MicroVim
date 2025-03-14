@@ -1,6 +1,4 @@
 -- This is a file to initialize all the plugins and change settings if needed.
-require("mvim.config.options")
-require("mvim.config.mappings")
 
 -- Treesitter setup
 require("nvim-treesitter.configs").setup({
@@ -54,3 +52,7 @@ require('grug-far').setup()
 
 -- Lualine
 require('lualine').setup()
+
+-- Setup other configs 
+require("mvim.config.options")
+require("mvim.config.mappings")

@@ -1,5 +1,4 @@
 -- MicroVim options
--- Here you can set global options for MicroVim
 
 -- Set the default colorscheme
 vim.g.default_colorscheme = "tokyonight-night"

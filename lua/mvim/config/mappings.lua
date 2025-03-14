@@ -1,5 +1,4 @@
 -- MicroVim mappings
--- Here you can set mappings for MicroVim
 
 -- Which-key
 local wk = require("which-key")
