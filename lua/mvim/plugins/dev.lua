@@ -16,18 +16,58 @@ return {
         -- LSP
         {
                 "neovim/nvim-lspconfig",
-                "williamboman/mason.nvim",
-                "williamboman/mason-lspconfig.nvim",
+                {
+                        "williamboman/mason.nvim",
+                        config = function()
+                                require("mason-lspconfig").setup()
+                        end,
+                },
+                {
+                        "williamboman/mason-lspconfig.nvim",
+                        config = function()
+                                require("mason-lspconfig").setup_handlers {
+                                -- The first entry (hithout a key) will be the default handler
+                                -- and will be called for each installed server that doesn"t have
+                                -- a dedicated handler.
+                                function(server_name)      -- default handler (optional)
+                                        require("lspconfig")[server_name].setup {}
+                                end,
+                        }
+                },
         },
-        -- Completion
         {
+                
                 "hrsh7th/nvim-cmp",
+                config = function()
+                        local cmp = require("cmp")
+
+                        cmp.setup {
+                        sources = {
+                                { name = "nvim_lsp" },
+                                { name = "path" },
+                                { name = "buffer" }
+                        },
+                        mapping = {
+                                ["<C-n>"] = cmp.mapping.select_next_item { behavior = cmp.SelectBehavior.Insert },
+                                ["<C-p>"] = cmp.mapping.select_prev_item { behavior = cmp.SelectBehavior.Insert },
+                                ["<Tab>"] = cmp.mapping.confirm {
+                                behavior = cmp.ConfirmBehavior.Insert,
+                                select = true,
+                        end,
+        },
+    }
+}
+
+                },
                 "hrsh7th/cmp-nvim-lsp",
                 { "L3MON4D3/LuaSnip", lazy = true },
         },
         -- Mini modules
         {
                 "echasnovski/mini.pairs",
+                config = function()
+                        require('mini.pairs').setup()
+                end,
                 event = "VeryLazy"
         }
 }

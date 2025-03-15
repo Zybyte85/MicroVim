@@ -22,6 +22,9 @@ return {
     },
     {
         "folke/which-key.nvim",
+        config = function()
+                require("which-key").setup()
+        end,
         event = "VeryLazy"
     },
     {
@@ -34,6 +37,9 @@ return {
     config = true
     },
     {
-	"MagicDuck/grug-far.nvim"
+	"MagicDuck/grug-far.nvim",
+	config = function()
+	        require('grug-far').setup()
+        end,
     }
 }
