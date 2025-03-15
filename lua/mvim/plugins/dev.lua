@@ -31,6 +31,7 @@ return {
                                 -- a dedicated handler.
                                 function(server_name)      -- default handler (optional)
                                         require("lspconfig")[server_name].setup {}
+                                end
                                 }
                         end,
                 },
