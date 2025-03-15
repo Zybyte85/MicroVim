@@ -34,5 +34,6 @@ return {
                 config = function()
                         require('lualine').setup()
                 end,
-        }
+        },
+        "stevearc/dressing.nvim"
 }
