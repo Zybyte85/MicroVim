@@ -33,14 +33,22 @@
 - A [Nerd font](https://www.nerdfonts.com/) such as Hack Nerd Font (optional)
 
 ### Linux/MacOS
-1. Download the [latest release](https://github.com/Zybyte85/MicroVim/releases/latest)
-2. Extract it to ~/.config/nvim
-
+1. Go to the [Neovim starter template](https://github.com/Zybyte85/MicroVim-Starter)
+2. Click "Use this template" and then "Create a new repository"
+3. Give it a name
+4. Run these commands
+5. ```
+   cd ~/.config/nvim
+   git clone <LINK TO YOUR REPOSITORY>
+   ```
 ### Windows
-1. Download the [latest release](https://github.com/Zybyte85/MicroVim/releases/latest)
-2. Open `Run` and put Appdata
-3. Extract it to Local\nvim
+1. Go to the [Neovim starter template](https://github.com/Zybyte85/MicroVim-Starter)
+2. Click "Use this template" and then "Create a new repository"
+3. Give it a name
+4. Open `Run` and put in `AppData`
+5. Go to Local\nvim
+6. Click the file path at the top and type in `cmd`
+7. run `git clone <LINK TO YOUR REPOSITORY>`
 
 ## Configuration
-### Adding plugins
-You can add plugins the same way you would normally. Go to ~/.config/nvim/mvim/plugins and make the changes you want in the files there. If you are planning on doing this, I would suggest you fork this repository so you can keep your custom config as your own repository.
+Once you download the starter template, you can configure MicroVim however you want normally.
