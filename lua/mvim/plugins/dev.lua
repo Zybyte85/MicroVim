@@ -25,7 +25,7 @@ return {
                 {
                         "mason-org/mason-lspconfig.nvim",
                         config = function()
-                                require("mason-lspconfig").setup_handlers {
+                                require("mason-lspconfig").setup {
                                         -- The first entry (hithout a key) will be the default handler
                                         -- and will be called for each installed server that doesn"t have
                                         -- a dedicated handler.
