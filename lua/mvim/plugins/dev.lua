@@ -17,13 +17,13 @@ return {
         {
                 "neovim/nvim-lspconfig",
                 {
-                        "williamboman/mason.nvim",
+                        "mason-org/mason.nvim",
                         config = function()
                                 require("mason").setup()
                         end,
                 },
                 {
-                        "williamboman/mason-lspconfig.nvim",
+                        "mason-org/mason-lspconfig.nvim",
                         config = function()
                                 require("mason-lspconfig").setup_handlers {
                                         -- The first entry (hithout a key) will be the default handler
